@@ -7,6 +7,13 @@
     <title>PhotoGraphy</title>
     <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:wght@300;400;500;600;700&family=PT+Serif:ital,wght@1,700&family=Poppins:wght@200;300;400;500;600&family=Tapestry&family=Water+Brush&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+ <!--/*swiperJS -cdn/--> 
+ <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
     <link href="style/style.css" rel="stylesheet">
 </head>
 <body>
@@ -99,15 +106,87 @@
   
 
  <section id="gallery">
-    <div class="container gallery__container">
+    <div class="container gallery__container swiper mySwiper">
         <div class="gallery__head">
             <h2 class="gallery__title">My Gallery</h2>
             <div class="empty gallery__empty"></div>
         </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officia accusamus rem, sit assumenda quam architecto laboriosam dignissimos temporibus culpa molestias suscipit, aliquid velit rep facilis.</p>
+
+        <div class="swiper-wrapper">
+            <article class="swiper-slide">
+                <img src="Images/test2">
+            </article>
+            <article class="swiper-slide">
+                <img src="Images/test2">
+            </article>
+            <article class="swiper-slide">
+                <img src="Images/test2">
+            </article>
+            <article class="swiper-slide">
+                <img src="Images/test2">
+            </article>
+            <article class="swiper-slide">
+                <img src="Images/test2">
+            </article>
+            <article class="swiper-slide">
+                <img src="Images/test2">
+            </article>
+            <article class="swiper-slide">
+                <img src="Images/test2">
+            </article>
+            <article class="swiper-slide">
+                <img src="Images/test2">
+            </article>
+            <article class="swiper-slide">
+                <img src="Images/test2">
+            </article>
+            <article class="swiper-slide">
+                <img src="Images/test2">
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+ </section>
+ 
+ <section id="exhibitions">
+    <div class="container exhibitions__container">
+        <h2 class="exhibitions__title">Exhibitions</h2>
+        <div class="empty exhibitions__empty"></div>
+        <div class="exhibitions__head">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste sit saepe laboriosam fuga consequuntur doloribus eius, velit aliquam minima in quae eos ut natus aut atque eligendi nulla ipsa?</p>
+            <a href="mailto:winchesse99@gmail.com" class="contact__btn exhibitions__btn">
+                <i class="fas fa-external-link-alt"></i>
+                <p>CONTACT - SEND ME AN EMAIL</p>
+            </a>
+        </div>
+        <div class="exhibitions__galery">
+           
+            <article><img src="Images/test2" ></article>
+            <article><img src="Images/test2" ></article>
+            <article><img src="Images/test2" ></article>
+            <article><img src="Images/test2" ></article>
+            <article><img src="Images/test2" ></article>
+            <article><img src="Images/test2" ></article>
+            <article><img src="Images/test2" ></article>
+        </div>
     </div>
  </section>
 
+<footer>
+    <div class="container footer__container">
+        <div class="footer__head">
+            <h2 class="footer__title">winchesse99@gmail.com</h2>
+            <a href="mailto:winchesse99@gmail.com" class="footer__btn"> <i class="fas fa-external-link-alt"></i></a>
+        </div>
+        <ul class="footer_links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#exhibitions">Exhibitions</a></li>
+        </ul>
+    </div>
+</footer>
 
 
 
@@ -129,6 +208,9 @@
 
 
 
+
+<!-- JS cdn-->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 <script src="Javascript/Js.js"></script>
 
