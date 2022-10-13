@@ -520,6 +520,7 @@ header{
 /*================== Footer ===============*/
 
 footer{
+    
     margin-top: 37rem;
 }
 
@@ -870,7 +871,8 @@ footer{
  /*================== Footer ===============*/
 
  footer{
-    margin-top: 1400px;
+    
+    margin-top: 8400px;
  }
  .footer__head{
     flex-direction: column;
